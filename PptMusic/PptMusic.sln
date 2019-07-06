@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PptMusic", "PptMusic.csproj", "{8F578767-31D2-473E-98B5-1AF77D630D77}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PptMusic.ConsolePlayer", "..\PptMusic.ConsolePlayer\PptMusic.ConsolePlayer.csproj", "{FDBC9E0F-B8C1-47A2-A227-E867BF7B1B36}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8F578767-31D2-473E-98B5-1AF77D630D77}.Debug.ActiveCfg = Debug|.NET
+		{8F578767-31D2-473E-98B5-1AF77D630D77}.Debug.Build.0 = Debug|.NET
+		{8F578767-31D2-473E-98B5-1AF77D630D77}.Release.ActiveCfg = Release|.NET
+		{8F578767-31D2-473E-98B5-1AF77D630D77}.Release.Build.0 = Release|.NET
+		{FDBC9E0F-B8C1-47A2-A227-E867BF7B1B36}.Debug.ActiveCfg = Debug|.NET
+		{FDBC9E0F-B8C1-47A2-A227-E867BF7B1B36}.Debug.Build.0 = Debug|.NET
+		{FDBC9E0F-B8C1-47A2-A227-E867BF7B1B36}.Release.ActiveCfg = Release|.NET
+		{FDBC9E0F-B8C1-47A2-A227-E867BF7B1B36}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
